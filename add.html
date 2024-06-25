@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script src="logic.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>To Do List</title>
+    </head>
+    <body>
+        <h1 id="headtop">TO-DO</h1>
+        <div id="content_block">
+            <a href="index.html" id="home">&lt; Home</a>
+            <h3>Create New TO-DO: </h3><br><br>
+            <label for="task_name" class="input_titles">Title:</label><br>
+            <input type="text" name="task_name" id="task_name" value="" placeholder="Give your task a title" class="task_boxes"><br><br><br>
+            <label for="desc" class="input_titles">Add a description:</label><br>
+            <input type="text" name="desc" id="desc" value="" placeholder="Add a short description for your task" class="task_boxes"><br><br><br>
+            <label for="dt" class="input_titles">Task date:</label><br>
+            <input type="date" name="dt" id="dt" value="" class="task_boxes"><br><br>
+            <p class="input_titles">Add a time:</p>
+            <label for="from" class="input_titles">From: </label>
+            <input type="time" name="from" id="from" value=""><br>
+            <label for="from" class="input_titles">To: </label>
+            <input type="time" name="to" id="to" value=""><br><br><br>
+            <div id="save"  onclick="add()">
+                <a href="index.html" id="addhref">
+                    SAVE
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

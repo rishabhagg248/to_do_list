@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script src="logic.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>To Do List</title>
+    </head>
+    <body onload="editDisp()">
+        <h1 id="headtop">TO-DO</h1>
+        <div id="content_block">
+            <a href="index.html" id="home">&lt; Home</a>
+            <h3>Which one to edit: </h3>
+            <p id="edit_disp"></p>
+            <input type="number" id="selected" value="" placeholder="Your choice" step="1" min="1" class="task_boxes">
+            <br><br>
+            <div id="edit" onclick="assignSelected()">
+                <a href="task.html">
+                    GO
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
